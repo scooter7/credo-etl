@@ -1,0 +1,104 @@
+# =======================================
+# Python
+# =======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =======================================
+# IDE & Editor Specific
+# =======================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =======================================
+# Logs & Debugging
+# =======================================
+*.log
+*.tmp
+*.temp
+*.bak
+debug.log
+
+# =======================================
+# Secrets & Environment Files
+# =======================================
+.env
+.env.*
+secrets.json
+secrets.yaml
+secrets.yml
+config.json
+config.local.json
+
+# Custom project secrets
+credo_secrets.json
+credentials.json
+api_keys.json
+
+# =======================================
+# Data Files
+# =======================================
+# Uploaded data files (Excel, PDFs, CSVs)
+data/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Cache
+.cache/
+*.zip
+
+# =======================================
+# Streamlit specific
+# =======================================
+.streamlit/
+.streamlit/secrets.toml
+
+# =======================================
+# Mac & Windows OS junk
+# =======================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =======================================
+# Reports / Outputs
+# =======================================
+# Auto-generated reports
+outputs/
+exports/
+reports/
+*.html
+
+# =======================================
+# Pip / Package Management
+# =======================================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =======================================
+# VS Code Python environment
+# =======================================
+.python-version
